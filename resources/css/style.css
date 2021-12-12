@@ -1,0 +1,47 @@
+/* CSS Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+/* -------------------------------- */
+
+/* The body styles */
+body {
+  background-color: #2f3035;
+}
+/* -------------------------------- */
+
+/* The Overwrapping  Website Container */
+.container {
+  margin: 0 auto; /*To center the container*/
+  width: 1024px;
+}
+/* -------------------------------- */
+
+/* The Header */
+header {
+  background-color: blue;
+  height: 118px;
+}
+/* -------------------------------- */
+
+/* Navigation Bar */
+nav {
+  background-color: yellow;
+  height: 40px;
+}
+/* -------------------------------- */
+
+/* Main Section of the Website */
+main {
+  background-color: orange;
+  height: 400px;
+}
+/* -------------------------------- */
+
+/* The Footer of thr website */
+footer {
+  background-color: rgb(34, 228, 34);
+  height: 40px;
+}
