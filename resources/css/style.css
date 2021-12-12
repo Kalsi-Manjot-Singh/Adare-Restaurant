@@ -94,8 +94,21 @@ main a:hover {
 
 /* -------------------------------- */
 
+/* Google maps Section */
+
+.googlemaps {
+  padding-bottom: 20px;
+}
+/* -------------------------------- */
+
 /* The Footer of thr website */
 footer {
-  background-color: rgb(34, 228, 34);
-  height: 40px;
+  background-color: rgba(0, 0, 0, 0.538);
+  padding-top: 80px;
+  padding-bottom: 50px;
+  text-align: center;
+}
+
+footer p {
+  font-size: 12px;
 }
