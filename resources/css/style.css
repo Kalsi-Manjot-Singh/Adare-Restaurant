@@ -36,9 +36,29 @@ header {
 
 /* Navigation Bar */
 nav {
-  background-color: yellow;
-  height: 40px;
+  background-color: rgba(0, 0, 0, 0.338);
+  padding-top: 14px;
+  padding-bottom: 14px;
+  text-align: center;
 }
+
+nav a {
+  text-decoration: none;
+  color: white;
+  font-size: 12px;
+  padding: 10px;
+}
+
+nav a:hover {
+  color: rgb(131, 130, 130);
+  transition: all 5ms ease-out;
+}
+
+nav a:active {
+  color: black;
+  transition: all 5ms ease-out;
+}
+
 /* -------------------------------- */
 
 /* Main Section of the Website */
@@ -58,7 +78,7 @@ p {
   margin-bottom: 40px;
 }
 
-a {
+main a {
   text-decoration: none;
   color: white;
   padding: 15px;
@@ -66,7 +86,7 @@ a {
   border-radius: 20px;
 }
 
-a:hover {
+main a:hover {
   background-color:white;
   color: black;
   transition: all 5ms ease-out;
