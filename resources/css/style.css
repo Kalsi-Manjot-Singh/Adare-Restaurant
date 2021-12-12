@@ -6,9 +6,17 @@
 }
 /* -------------------------------- */
 
+html {
+  height: 100%;
+}
 /* The body styles */
 body {
   background-color: #2f3035;
+  background-image: url(../img/background-adare-restaurant.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  color: white;
+  font-family:Georgia, 'Times New Roman', Times, serif;
 }
 /* -------------------------------- */
 
@@ -21,8 +29,8 @@ body {
 
 /* The Header */
 header {
-  background-color: blue;
   height: 118px;
+  text-align: center;
 }
 /* -------------------------------- */
 
@@ -35,9 +43,35 @@ nav {
 
 /* Main Section of the Website */
 main {
-  background-color: orange;
   height: 400px;
+  text-align: center;
+  padding: 80px 240px;
 }
+
+h1 {
+  font-size: 84px;
+  margin-bottom: 20px;
+}
+
+p {
+  font-size: 18px;
+  margin-bottom: 40px;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+  padding: 15px;
+  background-color: black;
+  border-radius: 20px;
+}
+
+a:hover {
+  background-color:white;
+  color: black;
+  transition: all 5ms ease-out;
+}
+
 /* -------------------------------- */
 
 /* The Footer of thr website */
